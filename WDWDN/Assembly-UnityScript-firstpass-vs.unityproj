@@ -192,6 +192,11 @@
      <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\WeaponScripts\WeaponInfo.js" />
      <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\WeaponScripts\WeaponLocking.js" />
      <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\copyright.txt.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\ReadMe - 3.7.9.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
