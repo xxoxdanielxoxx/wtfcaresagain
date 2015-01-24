@@ -7,6 +7,8 @@ Project("{E671FCBB-02AB-113C-BE75-2CC97095CEC3}") = "WDWDN", "Assembly-CSharp-vs
 EndProject
 Project("{E671FCBB-02AB-113C-BE75-2CC97095CEC3}") = "WDWDN", "Assembly-CSharp-Editor-firstpass-vs.csproj", "{27BB21F2-231C-D411-B508-D92031014DD5}"
 EndProject
+Project("{E671FCBB-02AB-113C-BE75-2CC97095CEC3}") = "WDWDN", "Assembly-CSharp-Editor-vs.csproj", "{F36462EC-97F6-5FF7-CAAB-BCCC62061F33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,11 +27,15 @@ Global
 		{27BB21F2-231C-D411-B508-D92031014DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27BB21F2-231C-D411-B508-D92031014DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27BB21F2-231C-D411-B508-D92031014DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F36462EC-97F6-5FF7-CAAB-BCCC62061F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F36462EC-97F6-5FF7-CAAB-BCCC62061F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F36462EC-97F6-5FF7-CAAB-BCCC62061F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F36462EC-97F6-5FF7-CAAB-BCCC62061F33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-						GlobalSection(MonoDevelopProperties) = preSolution
+													GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
