@@ -25,8 +25,8 @@ public class FPSInputController : MonoBehaviour
 		// Get the input vector from keyboard or analog stick
 		Vector3 directionVector = new Vector3(ControlerWrapper.Get().GetLeftStick (XInputDotNetPure.PlayerIndex.One).x, 0, ControlerWrapper.Get().GetLeftStick(XInputDotNetPure.PlayerIndex.One).y);
 		
-		directionVector.x += Input.GetAxis("Horizontal");
-		directionVector.z += Input.GetAxis("Vertical");
+		//directionVector.x += Input.GetAxis("Horizontal");
+		//directionVector.z += Input.GetAxis("Vertical");
 		
 		if(directionVector != Vector3.zero)
 		{
@@ -55,10 +55,10 @@ public class FPSInputController : MonoBehaviour
 			motor.inputJump = false;
 		}
 		
-		if (Input.GetButton("Fire1"))
-		{
-			BroadcastMessage("Shoot", SendMessageOptions.DontRequireReceiver);
-		}
+//		if (Input.GetButton("Fire1"))
+//		{
+//			BroadcastMessage("Shoot", SendMessageOptions.DontRequireReceiver);
+//		}
 		
 		// Apply the direction to the CharacterMotor
 		motor.inputMoveDirection = transform.rotation * directionVector;

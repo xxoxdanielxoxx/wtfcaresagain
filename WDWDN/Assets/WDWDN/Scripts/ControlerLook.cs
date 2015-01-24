@@ -32,9 +32,9 @@ public class ControlerLook : MonoBehaviour
 	
 	//[AddComponentMenu("Camera-Control/Mouse Look")]
 	
-	enum RotationAxes { MouseX = 0, MouseY = 1 }
+	public enum RotationAxes { MouseX = 0, MouseY = 1 }
 	
-	RotationAxes axes   = RotationAxes.MouseX;
+	public RotationAxes axes   = RotationAxes.MouseX;
 	
 
 		
@@ -46,11 +46,11 @@ public class ControlerLook : MonoBehaviour
 	
 
 		
-	float sensitivityStandardX   = 15F;
-	
+	public float sensitivityStandardX   = 15F;
+
 
 		
-	float sensitivityStandardY   = 15F;
+	public float sensitivityStandardY   = 15F;
 	
 
 		
@@ -86,24 +86,24 @@ public class ControlerLook : MonoBehaviour
 	
 	
 	
-	float minimumX   = -360F;
+	public float minimumX   = -360F;
 	
-	float maximumX  = 360F;
+	public float maximumX  = 360F;
 	
 	
 	
-	float minimumY   = -60F;
+	public float minimumY   = -60F;
 	
-	float maximumY   = 60F;
+	public float maximumY   = 60F;
 	
-	bool smooth   = true;
-	float smoothFactor   = 2;
+	public bool smooth   = true;
+	public float smoothFactor   = 2;
 	//var smoothIterations = new Array();
-	int  iterations   = 10;
+	public int  iterations   = 10;
 	
 	Quaternion  tRotation;
 	
-	float idleSway ;
+	public float idleSway = 0.001f ;
 	
 	private int minStored ;
 	private int maxStored ;
