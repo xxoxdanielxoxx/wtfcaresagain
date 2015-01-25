@@ -13,6 +13,9 @@ public class NavMeshMovement : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
+		if (Input.mousePosition.x < Screen.width / 2 || Input.mousePosition.x > Screen.width || 
+		    Input.mousePosition.y < 0 || Input.mousePosition.y > Screen.height)
+			return;
 
 		if( Input.GetMouseButtonDown(0) )
 		{
@@ -28,7 +31,7 @@ public class NavMeshMovement : MonoBehaviour
 
 			RaycastHit firstHit = hits[hits.Length-1];
 
-			Debug.Log(firstHit.transform.name);
+			//Debug.Log(firstHit.transform.name);
 
 			if( firstHit.transform.gameObject.layer == LayerMask.NameToLayer ("Ground") )
 			{
